@@ -1,24 +1,28 @@
-const path = require('path');
+const path = require("path");
 
 module.exports = {
-  entry: path.resolve(__dirname, './src/index.js'),
+  entry: path.resolve(__dirname, "./src/index.js"),
   module: {
     rules: [
       {
         test: /\.(js)$/,
         exclude: /node_modules/,
-        use: ['babel-loader']
-      }
-    ]
+        use: ["babel-loader"],
+      },
+    ],
   },
   resolve: {
-    extensions: ['*', '.js']
+    extensions: ["*", ".js"],
+  },
+  externals: {
+    react: "react",
+    "react-dom": "react-dom",
   },
   output: {
-    path: path.resolve(__dirname, './public'),
-    filename: 'bundle.js',
+    path: path.resolve(__dirname, "./public"),
+    filename: "bundle.js",
   },
   devServer: {
-    contentBase: path.resolve(__dirname, './public'),
+    contentBase: path.resolve(__dirname, "./public"),
   },
 };
