@@ -1,0 +1,40 @@
+{
+    "propertyType": [
+        {
+            "name": "HOUSES &amp; VILLAS",
+            "slug": "houses-villas"
+        },
+        {
+            "name": "APARTMENTS &amp; CONDOS",
+            "slug": "apartments-condos"
+        },
+        {
+            "name": "LAND",
+            "slug": "land"
+        },
+        {
+            "name": "OFFICES",
+            "slug": "offices"
+        },
+        {
+            "name": "APARTMENT BUILDINGS",
+            "slug": "apartament-buildings"
+        },
+        {
+            "name": "RETAIL",
+            "slug": "retail"
+        },
+        {
+            "name": "HOTELS &amp; RESORTS",
+            "slug": "hotels-resorts"
+        },
+        {
+            "name": "INDUSTRIAL",
+            "slug": "industrial"
+        },
+        {
+            "name": "OTHER COMMERCIAL &amp; SPECIAL PURPOSE",
+            "slug": "other-commercials"
+        }
+    ]
+}
