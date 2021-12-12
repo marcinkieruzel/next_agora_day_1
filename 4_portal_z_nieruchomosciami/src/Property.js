@@ -1,6 +1,6 @@
 import React from "react";
 
-const Property = (property) => {
+const Property = ({property}) => {
   return (
     <article className="col-4">
       <div class="card" style={{ marginBottom: "30px" }}>
@@ -17,3 +17,5 @@ const Property = (property) => {
     </article>
   );
 };
+
+export default Property
